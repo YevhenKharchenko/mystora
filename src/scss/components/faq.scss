@@ -7,21 +7,13 @@
 }
 
 .faq-bg-wrapper {
-  padding-top: 24px;
-  padding-bottom: 288px;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(../img/faq/faq-bg-mob.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: auto;
+  background: linear-gradient(180deg, #80232d 0%, #210f0f 100%);
+  padding-top: 40px;
+  padding-bottom: 48px;
 
   @include media(desktop) {
-    padding-top: 48px;
-    padding-bottom: 924px;
-    max-width: 1440px;
-    background-image: url(../img/faq/faq-bg-desk.jpg);
+    padding-top: 56px;
+    padding-bottom: 56px;
   }
 }
 
@@ -45,7 +37,7 @@
   width: 100%;
 
   @include media(desktop) {
-    max-width: 894px;
+    max-width: 1062px;
   }
 }
 
@@ -68,7 +60,7 @@
 
 .faq-top-text-btn {
   border-bottom: 2px solid;
-  border-image: linear-gradient(to right, #ffe16d, #291b5c) 1;
+  border-image: linear-gradient(to right, transparent, #ffc03a) 1;
   padding: 8px 0;
   display: flex;
   align-items: center;
@@ -77,7 +69,6 @@
   width: 100%;
 
   @include media(desktop) {
-    padding: 11px 0;
   }
 }
 
@@ -92,12 +83,12 @@
 }
 
 .faq-btn-text {
-  font-family: 'Luckiest Guy', sans-serif;
+  font-family: 'Londrina Solid', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 1.4;
   letter-spacing: 0.02em;
-  color: #fffef6;
+  color: #fff3e9;
   text-align: left;
 
   @include media(desktop) {
@@ -105,11 +96,11 @@
 }
 
 .faq-bottom-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Asap', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #fffef6;
+  color: #fff3e9;
 
   @include media(desktop) {
   }

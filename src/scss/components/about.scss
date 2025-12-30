@@ -29,7 +29,10 @@
 }
 
 .about-subtitle {
+  margin-bottom: 24px;
+
   @include media(desktop) {
+    margin-bottom: 40px;
   }
 }
 
